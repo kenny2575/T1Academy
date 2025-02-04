@@ -1,4 +1,4 @@
-package org.example.annotation;
+package org.example.task1.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,7 +7,5 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface CsvCode {
-
-    String value();
+public @interface AfterTest {
 }
