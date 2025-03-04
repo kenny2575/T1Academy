@@ -7,12 +7,12 @@ import java.sql.SQLOutput;
 public class ObservedClass {
 
     @BeforeSuite
-    void callBeforeSuite() {
+    static void callBeforeSuite() {
         System.out.println("before suite method");
     }
 
     @AfterSuite
-    void callAfterSuite() {
+    static void callAfterSuite() {
         System.out.println("after suite method");
     }
 
